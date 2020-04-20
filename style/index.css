@@ -55,6 +55,7 @@ html {
 #road{
     display: flex;
     justify-content: center;
+    /* margin: 20px; */
 }
 nav{
     display:flex;
@@ -225,9 +226,10 @@ footer nav a {
     text-decoration: none;
 }
 
-@media (max-width:1000px){}
-@media (max-width: 800px){
-
+@media (min-width:1000px){
+    .middle-content .boxes {
+        max-width: 85%;
+    }
 }
 
 @media (max-width: 500px){
